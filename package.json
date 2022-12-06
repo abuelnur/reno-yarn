@@ -14,7 +14,7 @@
     },
     "dependencies": {
         "dateformat": "2.2.0",
-        "graphlib": "2.1.1",
+        "graphlib": "2.1.8",
         "lodash": "4.17.21"
     },
     "packageManager": "yarn@3.1.1"
