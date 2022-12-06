@@ -1,0 +1,21 @@
+{
+    "name": "yarn-hassan",
+    "version": "0.0.1",
+    "description": "tasks for start that adds dependency management support",
+    "author": "Vilius Lukosius",
+    "license": "ISC",
+    "main": "index.js",
+    "scripts": {
+        "build": ":",
+        "lint": "eslint *.js **/*.js",
+        "test": "mocha 'test/**/*.spec.js' 'test/**/*.it.js'",
+        "posttest": "npm run lint -s",
+        "release": "npm-version-up --no-shrinkwrap"
+    },
+    "dependencies": {
+        "dateformat": "2.2.0",
+        "graphlib": "2.1.1",
+        "lodash": "4.17.4"
+    },
+    "packageManager": "yarn@3.1.1"
+}
